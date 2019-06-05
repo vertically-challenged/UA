@@ -1,15 +1,15 @@
+html {
+	overflow:  hidden;
+}
+
 body {
 	background-color: #3D47CB;
 }
 
 .container{
-	display: flex;
+	/*display: flex;
 	flex-direction: column;
-	align-items: center;
-}
-
-.container div{
-
+	align-items: center;*/
 }
 
 .box-flag{
@@ -31,16 +31,20 @@ body {
 }
 
 .box-info{
-	width: 100%; 
+	width: 70vh; 
 	height: 5vh; 
-	background-color: #fff;
-	position: absolute;
+	background-color: #3D47CB;
+	position: fixed;
 	margin: auto;
 	bottom: 0;
 	left: 0; 
 	right: 0;
 
 	z-index: 1;
+	
+	padding-top: 4vh;
+	padding-bottom: 5vh;
+	
 }
 
 .line {
@@ -78,4 +82,26 @@ body {
 
 .line8 {
 	background-color: #F6ED0B;
+}
+
+.instagram {
+	display: flex;
+	width: 7vh;
+	height: 7vh;
+	margin-left: auto;
+	margin-right: auto;
+
+	border: 0.5vh solid #fff;
+	border-radius: 25%;
+
+	justify-content: center;
+
+}
+
+.circle {
+	width: 36%;
+	height: 36%;
+	margin-top: 25%;
+	border: 0.5vh solid #fff;
+	border-radius: 100%;
 }
