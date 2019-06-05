@@ -24,6 +24,10 @@ body {
 	right: 0;
 
 	z-index: 2;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .box-info{
@@ -37,4 +41,41 @@ body {
 	right: 0;
 
 	z-index: 1;
+}
+
+.line {
+	z-index: 3;
+	width: 100%; 
+	height: 12.5%;
+}
+.line1 {
+	background-color: #414FCC;
+}
+
+.line2 {
+	background-color: #545BD0;
+}
+
+.line3 {
+	background-color: #6D75D8;
+}
+
+.line4 {
+	background-color: #9498E1;
+}
+
+.line5 {
+	background-color: #FFF87E;
+}
+
+.line6 {
+	background-color: #FCF751;
+}
+
+.line7 {
+	background-color: #FFF206;
+}
+
+.line8 {
+	background-color: #F6ED0B;
 }
