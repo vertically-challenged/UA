@@ -1,8 +1,14 @@
-var audio = $("#sound")[0];
-$("#sound1").mouseenter(function() {
-  audio.play();
-}).mouseleave(function() {
-  audio.pause();
+const divContainer = document.querySelector('box-flag');
+const govnina = document.getElementById("sound")
+
+divContainer.addEventListener('mouseover', e => {
+if (e.target.classList.contains('line')) {
+govnina.play()
+}
 });
 
-// Хз почему не работает, я ни бум-бум в js
+divContainer.addEventListener('mouseout', e => {
+if (e.target.classList.contains('line')) {
+govnina.pause()
+}
+}); 
