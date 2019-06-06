@@ -134,15 +134,12 @@ body {
 .box-rhombus {
 	width: 70vh; 
 	height: 30vh; 
-	background-color: #fff;
 	position: fixed;
 	margin: auto;
 	top: 0;
 	left: 0; 
 	right: 0;
 	z-index: 1;
-/*	padding-top: 4vh;
-	padding-bottom: 5vh;*/
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-around;
@@ -157,40 +154,52 @@ body {
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
+    opacity: 0;
 }
 
 .rhombus1 {	
+	animation: flight-of-rhombuses 10s linear 2s infinite;
 }
 
 .rhombus2 {	
+	animation: flight-of-rhombuses 10s linear 8s infinite;
 }
 
 .rhombus3 {	
+	animation: flight-of-rhombuses 10s linear 6s infinite;
 }
 
 .rhombus4 {	
+	animation: flight-of-rhombuses 10s linear 9.5s infinite;
 }
 
 .rhombus5 {	
+	animation: flight-of-rhombuses 10s linear 3s infinite;
 }
 
 .rhombus6 {	
+	animation: flight-of-rhombuses 10s linear 7s infinite;
 }
 
 .rhombus7 {	
+	animation: flight-of-rhombuses 10s linear 6.3s infinite;
 }
 
 .rhombus8 {	
+	animation: flight-of-rhombuses 10s linear 2.5s infinite;
 }
 
 .rhombus9 {	
+	animation: flight-of-rhombuses 10s linear 9s infinite;
 }
 
 .rhombus10 {	
+	animation: flight-of-rhombuses 10s linear 4s infinite;
 }
 
 @keyframes flight-of-rhombuses {
 	to{ 
-		margin-bottom: 35vh
+		margin-bottom: 35vh;
+		opacity: 1;
 	}
 }
