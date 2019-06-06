@@ -2,6 +2,10 @@ html {
 	overflow:  hidden;
 }
 
+audio {
+  display: none;
+}
+
 body {
 	background-color: #3D47CB;
 }
