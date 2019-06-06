@@ -19,7 +19,6 @@ body {
 .box-flag{
 	width: 70vh; 
 	height: 50vh; 
-	background-color: #000; 
 	position: absolute;
 	margin: auto;
 	top: 0; 
@@ -64,34 +63,50 @@ body {
 
 .line1 {
 	background-color: #414FCC;
+	animation: emergence .6s linear 1.2s 1 reverse;
+	animation-fill-mode: forwards; 
 }
 
 .line2 {
 	background-color: #545BD0;
+	animation: emergence .6s linear 1.1s 1 reverse;
+	animation-fill-mode: forwards; 
 }
 
 .line3 {
 	background-color: #6D75D8;
+	animation: emergence .6s linear 1s 1 reverse;
+	animation-fill-mode: forwards; 
 }
 
 .line4 {
 	background-color: #9498E1;
+	animation: emergence .6s linear .9s 1 reverse;
+	animation-fill-mode: forwards; 
 }
 
 .line5 {
 	background-color: #FFF87E;
+	animation: emergence .6s linear .8s 1 reverse;
+	animation-fill-mode: forwards; 
 }
 
 .line6 {
 	background-color: #FCF751;
+	animation: emergence .6s linear .7s 1 reverse;
+	animation-fill-mode: forwards; 
 }
 
-.line7 {
+.line7 {;
 	background-color: #FFF206;
+	animation: emergence .6s linear .6s 1 reverse;
+	animation-fill-mode: forwards; 
 }
 
 .line8 {
 	background-color: #F6ED0B;
+	animation: emergence .6s linear .5s 1 reverse;
+	animation-fill-mode: forwards; 
 }
 
 .instagram {
@@ -111,4 +126,8 @@ body {
 	margin-top: 25%;
 	border: 0.5vh solid #fff;
 	border-radius: 100%;
+}
+
+@keyframes emergence {
+	to{ box-shadow: 0px 0px 1vh 0.5vh #fff; }
 }
