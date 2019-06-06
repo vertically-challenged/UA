@@ -33,7 +33,6 @@ body {
 
 .box-info{
 	display: none;
-
 	width: 70vw; 
 	height: 5vh; 
 	background-color: #3D47CB;
@@ -130,4 +129,68 @@ body {
 
 @keyframes emergence {
 	to{ box-shadow: 0px 0px 1vh 0.5vh #fff; }
+}
+
+.box-rhombus {
+	width: 70vh; 
+	height: 30vh; 
+	background-color: #fff;
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0; 
+	right: 0;
+	z-index: 1;
+/*	padding-top: 4vh;
+	padding-bottom: 5vh;*/
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.common-to-rhombuses {
+	width: 2.5vh;
+    height: 2.5vh;
+    background: #9498E1;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.rhombus1 {	
+}
+
+.rhombus2 {	
+}
+
+.rhombus3 {	
+}
+
+.rhombus4 {	
+}
+
+.rhombus5 {	
+}
+
+.rhombus6 {	
+}
+
+.rhombus7 {	
+}
+
+.rhombus8 {	
+}
+
+.rhombus9 {	
+}
+
+.rhombus10 {	
+}
+
+@keyframes flight-of-rhombuses {
+	to{ 
+		margin-bottom: 35vh
+	}
 }
