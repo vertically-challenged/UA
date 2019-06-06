@@ -10,16 +10,6 @@ audio {
   display: none;
 }
 
-.container{
-	display: absolute;
-	position: fixed;
-	margin: auto;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-}
-
 /*Стили для флага*/
 
 .box-flag{
