@@ -2,12 +2,12 @@ html {
 	overflow:  hidden;
 }
 
-audio {
-  display: none;
-}
-
 body {
 	background-color: #3D47CB;
+}
+
+audio {
+  display: none;
 }
 
 .container{
@@ -19,6 +19,8 @@ body {
 	right: 0;
 	bottom: 0;
 }
+
+/*Стили для флага*/
 
 .box-flag{
 	width: 70vh; 
@@ -33,21 +35,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.box-info{
-	display: none;
-	width: 70vw; 
-	height: 5vh; 
-	background-color: #3D47CB;
-	position: fixed;
-	margin: auto;
-	bottom: 0;
-	left: 0; 
-	right: 0;
-	z-index: 1;
-	padding-top: 4vh;
-	padding-bottom: 5vh;
 }
 
 .line {
@@ -112,28 +99,11 @@ body {
 	animation-fill-mode: forwards; 
 }
 
-.instagram {
-	display: flex;
-	width: 7vh;
-	height: 7vh;
-	margin-left: auto;
-	margin-right: auto;
-	border: 0.5vh solid #fff;
-	border-radius: 25%;
-	justify-content: center;
-}
-
-.circle {
-	width: 36%;
-	height: 36%;
-	margin-top: 25%;
-	border: 0.5vh solid #fff;
-	border-radius: 100%;
-}
-
 @keyframes emergence {
 	to{ box-shadow: 0px 0px 1vh 0.5vh #fff; }
 }
+
+/*Стили для ромбов*/
 
 .box-rhombus {
 	width: 70vh; 
@@ -206,4 +176,35 @@ body {
 		margin-bottom: 35vh;
 		opacity: 1;
 	}
+}
+
+/*Стили для подвала*/
+
+.box-info{
+	width: 70vw; 
+	height: 5vh; 
+	position: fixed;
+	margin: auto;
+	bottom: 0;
+	left: 0; 
+	right: 0;
+	z-index: 1;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.instagram {
+	width: 4vh;
+	height: 4vh;
+	padding-bottom: 0.5vh;
+	margin-right: 5vh;
+	opacity: .2;
+}
+
+.github {
+	width: 12vh;
+	height: 7vh;
+	margin-left: 5vh;
+	opacity: .2;
 }
