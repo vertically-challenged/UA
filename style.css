@@ -30,7 +30,6 @@ audio {
 	position: absolute;
 	width: 100vw; 
 	height: 100vh; 
-	padding-left: 28vw;
 	padding-top: 80vh; 
 	font-size: 3.5vh;
 	text-decoration: none;
@@ -47,6 +46,7 @@ audio {
 	-moz-user-select: none;      
 	-ms-user-select: none;       
 	user-select: none;  
+	text-align: center;
 }
 
 .toplink:active {
@@ -240,13 +240,14 @@ audio {
 	width: 4vh;
 	height: 4vh;
 	padding-bottom: 0.5vh;
-	margin-right: 5vh;
+	/*margin-right: 5vh;*/
 	opacity: .2;
 }
 
 .github {
 	width: 12vh;
 	height: 7vh;
-	margin-left: 5vh;
+	/*margin-left: 5vh;*/
 	opacity: .2;
+	margin-right: 1.5vh;
 }
