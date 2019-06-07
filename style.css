@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
 html {
 	overflow:  hidden;
 }
@@ -18,6 +23,43 @@ audio {
 	top: 0;
 	right: 0;
 	bottom: 0;
+}
+
+.toplink {
+	display: block;
+	position: absolute;
+	width: 100vw; 
+	height: 100vh; 
+	padding-left: 28vw;
+	padding-top: 80vh; 
+	font-size: 3.5vh;
+	text-decoration: none;
+	color: #FFF; 
+	cursor: default;
+	animation: toplinknone 0.1s linear 0.1s 1;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+	text-shadow: 1px 1px 2px black;
+	opacity: .6;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none;  
+	-khtml-user-select: none;   
+	-moz-user-select: none;      
+	-ms-user-select: none;       
+	user-select: none;  
+}
+
+.toplink:active {
+	animation-play-state: running;
+}
+
+@keyframes toplinknone {
+	to{ 
+		width: 1%; 
+		height: 1%; 
+		left: 1000vh; 
+		top:1000vh;
+	 }
 }
 
 /*Стили для флага*/
@@ -44,12 +86,12 @@ audio {
 	transition: .2s linear
 }
 
-/*.line:hover {
+.line:hover {
 	box-shadow: 0px 0px 1vh 0.5vh #fff;
 	z-index: 5;
 	width: 110%;
 	border-radius: 1vh;
-}*/
+}
 
 .line1 {
 	background-color: #414FCC;
