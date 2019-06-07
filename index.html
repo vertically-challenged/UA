@@ -5,7 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, height=device-height">
 	<script src="jquery.min.js"></script>
-	<script src="play-anthem.js"></script>
 </head>
 <body>
 	<!-- Ще не вмерли України і слава, і воля,
@@ -29,13 +28,13 @@
 			<div class="rhombus10 common-to-rhombuses"></div>
 		</div>
 		<div class="box-flag">
-			<div class="line1 line"></div>
-			<div class="line2 line"></div>
-			<div class="line3 line"></div>
-			<div class="line4 line"></div>
-			<div class="line5 line"></div>
-			<div class="line6 line"></div>
-			<div class="line7 line"></div>
+			<div class="line1 line" id="sound8"></div>
+			<div class="line2 line" id="sound7"></div>
+			<div class="line3 line" id="sound6"></div>
+			<div class="line4 line" id="sound5"></div>
+			<div class="line5 line" id="sound4"></div>
+			<div class="line6 line" id="sound3"></div>
+			<div class="line7 line" id="sound2"></div>
 			<div class="line8 line" id="sound1"></div>
 		</div>
 		<div class="box-info">
@@ -49,8 +48,16 @@
 		</div>	
 	</div>
 	
-	<!-- Звуки родины -->
-	<!-- Почему-то не звучат -->
-	<audio id="sound" src="audio/ogg/1.ogg" preload="auto" controls></audio>
+	<audio id="sound01" src="audio/ogg/1.ogg" preload="auto" controls></audio>
+	<audio id="sound02" src="audio/ogg/2.ogg" preload="auto" controls></audio>
+	<audio id="sound03" src="audio/ogg/3.ogg" preload="auto" controls></audio>
+	<audio id="sound04" src="audio/ogg/4.ogg" preload="auto" controls></audio>
+	<audio id="sound05" src="audio/ogg/5.ogg" preload="auto" controls></audio>
+	<audio id="sound06" src="audio/ogg/6.ogg" preload="auto" controls></audio>
+	<audio id="sound07" src="audio/ogg/7.ogg" preload="auto" controls></audio>
+	<audio id="sound08" src="audio/ogg/8.ogg" preload="auto" controls></audio>
+	<script src="play-anthem.js"></script>
+
+	<div class="toplink">дабл кликните в любое место для активации звука на сайте</div>
 </body>
 </html>
