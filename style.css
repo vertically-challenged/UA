@@ -129,7 +129,7 @@ audio {
 	animation-fill-mode: forwards; 
 }
 
-.line7 {;
+.line7 {
 	background-color: #FFF206;
 	animation: emergence .6s linear .6s 1 reverse;
 	animation-fill-mode: forwards; 
